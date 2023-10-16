@@ -3,6 +3,7 @@ import { useFrame } from "@react-three/fiber";
 import { useRef } from "react";
 import Cat from "./World/Cat";
 import { Temple } from "./World/Temple";
+import Floor from "./World/Floor";
 
 const Experience = ({ title, info }) => {
   const boxRef = useRef();
@@ -26,7 +27,9 @@ const Experience = ({ title, info }) => {
 
         <Cat/>
 
-        <Temple position={[3, -0.2, -2]} scale={0.9} />
+        <Floor/>
+
+        <Temple position={[3, -0.2, -2]} scale={0.8} />
 
         <OrbitControls makeDefault />
         <ambientLight intensity={0.5} />
