@@ -2,6 +2,7 @@ import { OrbitControls } from "@react-three/drei";
 import { useFrame } from "@react-three/fiber";
 import { useRef } from "react";
 import Cat from "./World/Cat";
+import { Temple } from "./World/Temple";
 
 const Experience = ({ title, info }) => {
   const boxRef = useRef();
@@ -22,23 +23,31 @@ const Experience = ({ title, info }) => {
 
         <ambientLight intensity={0.5} />
         <directionalLight position={[10, 10, 5]} intensity={2} />
+
         <Cat/>
+
+        <Temple position={[3, -0.2, -2]} scale={0.9} />
+
         <OrbitControls makeDefault />
         <ambientLight intensity={0.5} />
         <directionalLight position={[10, 10, 5]} intensity={2} />
-        <mesh ref={boxRef} position={[-5.5, 0, -5]}>
+
+        <mesh ref={boxRef} position={[-5.5, 0, -7]}>
         <boxGeometry args={[1, 1, 1]} />
         <meshStandardMaterial color="#FFC0CB" />
         </mesh>
-        <mesh ref={coneRef} position={[-3, 0, -5]}>
+
+        <mesh ref={coneRef} position={[-3, 0, -7]}>
             <coneGeometry args={[1, 2, 8]} />
             <meshPhongMaterial color="#DB7093" />
         </mesh>
-        <mesh ref={sphereRef} position={[0, 0, -5]}>
+
+        <mesh ref={sphereRef} position={[0, 0, -7]}>
             <sphereGeometry args={[1, 32, 16]} />
             <meshToonMaterial color="#FF69B4" />
         </mesh>
-        <mesh ref={torusRef} position={[3, 0, -5]}>
+
+        <mesh ref={torusRef} position={[3, 0, -7]}>
             <torusGeometry args={[1, 0.4, 50, 500]} />
             <meshLambertMaterial color="#FFB6C1" />
         </mesh>
