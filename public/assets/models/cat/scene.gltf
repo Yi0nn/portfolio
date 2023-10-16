@@ -1,0 +1,250 @@
+{
+  "accessors": [
+    {
+      "bufferView": 2,
+      "componentType": 5126,
+      "count": 2994,
+      "max": [
+        0.0015249609714373946,
+        -2.9996560897416202e-06,
+        0.0010892479913309216
+      ],
+      "min": [
+        -0.0015249609714373946,
+        -0.003120759967714548,
+        -0.0006964608328416944
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 35928,
+      "componentType": 5126,
+      "count": 2994,
+      "max": [
+        0.9995647072792053,
+        1.0,
+        0.999949038028717
+      ],
+      "min": [
+        -0.9995647072792053,
+        -0.9981287717819214,
+        -0.9999489784240723
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5126,
+      "count": 2994,
+      "max": [
+        0.9950485825538635,
+        0.9962409138679504
+      ],
+      "min": [
+        0.006243105046451092,
+        0.004601793829351664
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "componentType": 5125,
+      "count": 8790,
+      "type": "SCALAR"
+    }
+  ],
+  "asset": {
+    "extras": {
+      "author": "Khyoocumber (https://sketchfab.com/Khyoocumber)",
+      "license": "CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)",
+      "source": "https://sketchfab.com/3d-models/lowpoly-kimono-cat-15af0225f0b741968d35a7172f691fa0",
+      "title": "Lowpoly Kimono cat"
+    },
+    "generator": "Sketchfab-15.33.0",
+    "version": "2.0"
+  },
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 35160,
+      "name": "floatBufferViews",
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteLength": 23952,
+      "byteOffset": 35160,
+      "byteStride": 8,
+      "name": "floatBufferViews",
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 71856,
+      "byteOffset": 59112,
+      "byteStride": 12,
+      "name": "floatBufferViews",
+      "target": 34962
+    }
+  ],
+  "buffers": [
+    {
+      "byteLength": 130968,
+      "uri": "scene.bin"
+    }
+  ],
+  "extensionsUsed": [
+    "KHR_materials_unlit"
+  ],
+  "images": [
+    {
+      "uri": "textures/Mmengchong_10005_Mmengchong_T_10005_baseColor.png"
+    }
+  ],
+  "materials": [
+    {
+      "doubleSided": true,
+      "extensions": {
+        "KHR_materials_unlit": {}
+      },
+      "name": "Mmengchong_10005_Mmengchong_T_10005",
+      "pbrMetallicRoughness": {
+        "baseColorTexture": {
+          "index": 0
+        },
+        "metallicFactor": 0.0
+      }
+    }
+  ],
+  "meshes": [
+    {
+      "name": "Mmengchong_10005_pet_022_0_Mmengchong_10005_Mmengchong_T_10005_0",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 1,
+            "POSITION": 0,
+            "TEXCOORD_0": 2
+          },
+          "indices": 3,
+          "material": 0,
+          "mode": 4
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "children": [
+        1
+      ],
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        2.220446049250313e-16,
+        -1.0,
+        0.0,
+        0.0,
+        1.0,
+        2.220446049250313e-16,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "name": "Sketchfab_model"
+    },
+    {
+      "children": [
+        2
+      ],
+      "matrix": [
+        0.009999999776482582,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.009999999776482582,
+        0.0,
+        0.0,
+        -0.009999999776482582,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "name": "Mmengchong_10005.fbx"
+    },
+    {
+      "children": [
+        3
+      ],
+      "name": "RootNode"
+    },
+    {
+      "children": [
+        4
+      ],
+      "name": "Mmengchong_10005_Mmengchong_10005"
+    },
+    {
+      "children": [
+        5
+      ],
+      "matrix": [
+        217.95338439941406,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        -217.95338439941406,
+        2.669159145680751e-14,
+        0.0,
+        0.0,
+        -2.669159145680751e-14,
+        -217.95338439941406,
+        0.0,
+        0.0,
+        0.001610500505194068,
+        0.0,
+        1.0
+      ],
+      "name": "Mmengchong_10005_pet_022_0"
+    },
+    {
+      "mesh": 0,
+      "name": "Mmengchong_10005_pet_022_0_Mmengchong_10005_Mmengchong_T_10005_0"
+    }
+  ],
+  "samplers": [
+    {
+      "magFilter": 9729,
+      "minFilter": 9987,
+      "wrapS": 10497,
+      "wrapT": 10497
+    }
+  ],
+  "scene": 0,
+  "scenes": [
+    {
+      "name": "Sketchfab_Scene",
+      "nodes": [
+        0
+      ]
+    }
+  ],
+  "textures": [
+    {
+      "sampler": 0,
+      "source": 0
+    }
+  ]
+}
