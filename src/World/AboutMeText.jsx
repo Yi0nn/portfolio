@@ -9,7 +9,7 @@ const AboutMeText = () => {
                 className="aboutme-text">Click here</h2>
         </Html>
                 <Text
-                    font="/assets/fonts/Bangers-Regular.ttf"
+                    font="/assets/fonts/04B_30__.ttf"
                     fontSize={0.1}
                     color={new Color(0xFF0080)}
                     position-y={2}
