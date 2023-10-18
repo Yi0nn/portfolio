@@ -5,7 +5,7 @@ import { Color } from "three";
 const AboutMeText = () => {
     return (
         <><Html position={[-0.1, 1, 2]} center distanceFactor={7}>
-            <h2 onClick={() => alert("Hola me llamo Stefhania me dicen Yion")} 
+            <h2 onClick={() => alert("Hola me llamo Stefhania me gusta jugar y ver peliculas")} 
                 className="aboutme-text">Click here</h2>
         </Html>
                 <Text
