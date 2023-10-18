@@ -5,6 +5,9 @@ import Cat from "./World/Cat";
 import { Temple } from "./World/Temple";
 import Floor from "./World/Floor";
 import Lights from "./World/Lights";
+import Environments from "./World/Environments";
+import Sign from "./World/Sign";
+import WelcomeText from "./World/WelcomeText";
 
 const Experience = ({ title, info }) => {
   const boxRef = useRef();
@@ -27,6 +30,12 @@ const Experience = ({ title, info }) => {
         <Floor/>
 
         <Lights/>
+
+        <Environments/>
+
+        <Sign>
+        <WelcomeText/>
+        </Sign>
 
         <Temple position={[3, -0.2, -2]} scale={0.8} />
 

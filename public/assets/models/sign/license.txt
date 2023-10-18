@@ -1,0 +1,11 @@
+Model Information:
+* title:	Letrero V2
+* source:	https://sketchfab.com/3d-models/letrero-v2-30bd5f2c9f604ab9b9d2b5d1882ef6eb
+* author:	ValaBanana (https://sketchfab.com/ValaBanana)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Letrero V2" (https://sketchfab.com/3d-models/letrero-v2-30bd5f2c9f604ab9b9d2b5d1882ef6eb) by ValaBanana (https://sketchfab.com/ValaBanana) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
