@@ -1,4 +1,4 @@
-import { Environment, Cloud, Stars} from "@react-three/drei";
+import { Environment, Cloud, Stars, Sky} from "@react-three/drei";
 
 const Environments = () => {
     return(
@@ -19,6 +19,19 @@ const Environments = () => {
             segments={20} 
             position-y={20}
             />
+
+            <Sky
+            sunPosition={[0, 0, -1]} // Coloca el sol debajo del horizonte
+            inclination={0.2}       // Ajusta la inclinación para simular el atardecer
+            azimuth={180} // Ajusta el ángulo azimutal 
+            mieCoefficient={0.005}  // Ajusta la dispersión atmosférica
+            elevation={5}           // Ajusta la elevación del sol
+            mieDirectionalG={0.07}   // Ajusta la luminosidad del sol
+            rayleigh={3}        // Ajusta la dispersión de Rayleigh
+            turbidity={10}         // Ajusta la claridad del cielo]
+            exposure={0.5}
+            />
+
 
         </>
     )
