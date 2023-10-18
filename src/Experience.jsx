@@ -8,6 +8,7 @@ import Lights from "./World/Lights";
 import Environments from "./World/Environments";
 import Sign from "./World/Sign";
 import WelcomeText from "./World/WelcomeText";
+import AboutMeText from "./World/AboutMeText";
 
 const Experience = ({ title, info }) => {
   const boxRef = useRef();
@@ -34,7 +35,10 @@ const Experience = ({ title, info }) => {
         <Environments/>
 
         <Sign>
+        
         <WelcomeText/>
+        <AboutMeText/>
+
         </Sign>
 
         <Temple position={[3, -0.2, -2]} scale={0.8} />

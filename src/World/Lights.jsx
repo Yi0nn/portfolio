@@ -21,7 +21,7 @@ const Lights = () => {
 
             <spotLight position={[3, 4 , -0.8]} angle={90} intensity={20} color={"white"} penumbra={1} distance={8} />
 
-
+            <spotLight position={[0, 1 , 3]} angle={90} intensity={10} color={"white"} penumbra={1} distance={2} />
         </>
 }
 export default Lights;
