@@ -9,6 +9,7 @@ import Environments from "./World/Environments";
 import Sign from "./World/Sign";
 import WelcomeText from "./World/WelcomeText";
 import AboutMeText from "./World/AboutMeText";
+import Bug from "./World/Bug";
 
 const Experience = ({ title, info }) => {
   const boxRef = useRef();
@@ -33,6 +34,8 @@ const Experience = ({ title, info }) => {
         <Lights/>
 
         <Environments/>
+
+        <Bug></Bug>
 
         <Sign>
         
